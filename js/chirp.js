@@ -9,7 +9,7 @@ if (sessionStorage.getItem('user') === null) {
 }
 
 // Variables
-window.prefixPath = location.href.includes('github') ? '/chirp' : ''
+window.prefixPath = location.href.includes('github') ? '/chirp-fall-2016' : ''
 window.apiHost = 'https://fathomless-gorge-57039.herokuapp.com'
 window.apiServer = window.apiHost + '/api'
 window.apiUser = JSON.parse(sessionStorage.getItem('user'))
